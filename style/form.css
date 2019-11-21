@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+}
+
+input, select {
+    width: 100%;
+    height: 46px;
+    padding: 10px;
+    color: #292b78;
+    font-size: 18px;
+    border: 2px solid #dedcdc;
+}
+
+fieldset {
+    margin-bottom: 16px;
+}
+
+label {
+    display: block;
+}
+
+input[type='checkbox'] {
+    width: 10px;
+    height: 10px;
+}
+
+input {
+    border: 0;
+}
+
+select {
+    /* for Firefox */
+    -moz-appearance: none;
+    /* for Chrome */
+    -webkit-appearance: none;
+}
+
+.form-wrap {
+    position: fixed;
+    display: none;
+    background: #292b78;
+    border: 1px solid #fff;
+    top: 10%;
+    z-index: 9999;
+    padding: 20px 25px;
+    left: 50%;
+    transition: .5s;
+    transform: translateX(-50%);
+}
+
+.form-close {
+    width: 39px;
+    height: 39px;
+    background: #fff;
+    color: #292b78;
+    font-size: 30px;
+    border: 1px solid #292b78;
+    line-height: 39px;
+    position: absolute;
+    top: -15px;
+    cursor: pointer;
+    z-index: 999;
+    border-radius: 100%;
+    right: -19.5px;
+}
+
+.checkmark-wrap label {
+    margin: 0;
+    display: inline-block;
+}
+
+.form-wrap h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* For IE10 */
+select::-ms-expand {
+    display: none;
+}
+
+.area-code-input,
+.phone-input {
+    float: left;
+}
+
+.area-code-input {
+    width: 22%;
+    margin-right: 13px;
+}
+
+.phone-input {
+    width: 73%;
+}
+
+input::placeholder {
+    color: #292b78;
+    font-size: 18px;
+
+}
+
+::-moz-placeholder {
+    color: #292b78;
+    font-size: 18px;
+
+}
+
+::-webkit-input-placeholder {
+    color: #292b78;
+    font-size: 18px;
+
+}
+
+:-ms-input-placeholder {
+    color: #292b78;
+    font-size: 18px;
+}
+
+/*CHECKBOX*/
+.checkbox-condtitions-txt,
+.checkbox-condtitions-txt a {
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    text-align: left;
+}
+
+/* The container */
+.checkmark-wrap {
+    display: flex;
+    position: relative;
+    padding-left: 35px;
+    height: 26px;
+    margin-bottom: 12px;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    font-size: 22px;
+    padding-top: 0;
+    z-index: 999;
+    color: #000;
+    line-height: 1.1;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkmark-wrap input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    cursor: pointer;
+    width: 25px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.checkmark-wrap:hover input ~ .checkmark {
+    background-color: #fff;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkmark-wrap input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.checkmark-wrap input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkmark-wrap .checkmark:after {
+    left: 8px;
+    top: 5px;
+    width: 8px;
+    height: 13px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.register-btn {
+    margin: 0 auto;
+}
+
+@media (max-width: 425px) {
+
+    .form-wrap {
+        top: 4%;
+    }
+
+    .phone-input {
+        width: 72%;
+    }
+
+    .checkmark-wrap, .checkbox-condtitions-txt {
+        line-height: 15px;
+    }
+}
+
+.form-notification-error {
+    position: absolute;
+    background: darkred;
+    color: #fff;
+    left: 50%;
+    min-width: 24%;
+    width: 70%;
+    top: -10px;
+    z-index: 10000;
+    padding: 5px;
+    font-size: 14px;
+    transform: translateX(-50%);
+    display: none;
+    text-align: center;
+}
+
+.loader {
+    position: absolute;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white url(../assets/loader.gif) no-repeat center;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+}
+
+@media (max-width: 991px) {
+    .form-wrap {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    input, select {
+        height: 36px;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .checkmark-wrap, .checkbox-condtitions-txt {
+        line-height: 12px;
+    }
+
+    .area-code-input {
+        padding: 3px;
+    }
+
+}

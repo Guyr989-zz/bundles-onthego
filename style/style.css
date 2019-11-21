@@ -1,0 +1,1108 @@
+
+*, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, p, .btn {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.show-991,
+.show-768,
+.show-767,
+.cardsCarousel {
+    display: none;
+}
+
+.modal {
+    z-index: 9999;
+}
+
+.carousel2 {
+    display: none;
+}
+
+body {
+    position: relative;
+    font-family: 'Rubik', sans-serif;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+header {
+    height: 140px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.logo {
+    height: 100%;
+    width: 295px;
+    background: url("../assets/logo.png") no-repeat center left;
+    background-size: contain;
+}
+
+.secure-icons {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.secure-icons div {
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+.secure-icons div:first-of-type {
+    margin-right: 23px;
+
+}
+
+.ssl {
+    background: url("../assets/ssl.png") no-repeat;
+    padding-left: 35px;
+}
+
+.protected {
+    background: url("../assets/data-protection.png") no-repeat;
+    padding-left: 35px;
+}
+
+.sec1 {
+    position: relative;
+    height: 654px;
+}
+
+.sec1 .container {
+    position: relative;
+}
+
+.personName {
+    font-size: 18px;
+}
+
+.just-made-box {
+    position: absolute;
+    background: #f26e1e;
+    color: #fff;
+    left: 40%;
+    width: 233px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 140px;
+    border-radius: 0 0 15px 15px;
+    font-size: 18px;
+}
+
+.person-change {
+    line-height: 1;
+}
+
+.personSum,
+.just-made-box .currency {
+    font-size: 60px;
+    font-weight: 300;
+    display: inline-block;
+}
+
+.number-person .currency {
+    font-size: 60px;
+}
+
+.type-writer-content {
+    position: absolute;
+    top: 210px;
+    left: 0;
+    height: 100%;
+    line-height: 1;
+    width: 670px;
+    color: #fff;
+    z-index: 2;
+}
+
+h1,
+.type-writer-content span {
+    color: #fff;
+    font-size: 50px;
+}
+
+.type-writer-content span {
+    height: 50px;
+}
+
+.txt {
+    border-right: 5px solid #fff;
+}
+
+.type-writer-para {
+    font-size: 25px;
+    margin-bottom: 30px;
+    line-height: 1.2;
+}
+
+.orange-border {
+    width: 233px;
+    height: 5px;
+    background: #f26e1e;
+    margin: 25px 0;
+}
+
+.btn {
+    display: block;
+    width: 304px;
+    color: #fff;
+    font-size: 25px;
+    padding: .5em 1em;
+    position: relative;
+    z-index: 999;
+    text-transform: uppercase;
+    border-radius: 60px;
+    background: #f26e1e;
+}
+
+.btn:hover {
+    background: #ff9913;
+}
+
+.carousel-item {
+    height: 656px;
+    width: 100%;
+    z-index: -1;
+}
+
+.carousel-indicators li {
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    background: #fff;
+}
+
+.carousel-indicators li.active {
+    background: #f26e1e;
+}
+
+.carousel-inner div {
+    background-size: cover;
+}
+
+.slide-1-bus {
+    background: url("../assets/slide-1-bus.jpg") no-repeat center;
+}
+
+.slide-2-coffee {
+    background: url("../assets/slide-2-coffee.jpg") no-repeat center;
+}
+
+.slide-3-subway {
+    background: url("../assets/slide-3-subway.jpg") no-repeat center;
+}
+
+.slide-4-beach {
+    background: url("../assets/slide-4-beach.jpg") no-repeat center;
+}
+
+.slide-5-vacation {
+    background: url("../assets/slide-5-vacation.jpg") no-repeat center;
+}
+
+.sec2 {
+    background: #292b78;
+    padding: 44px 15px 70px;
+
+}
+
+.sec2 h2, .sec4 h2 {
+    color: #fff;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.coupons {
+    display: flex;
+    justify-content: center;
+}
+
+.coupons > div {
+    max-width: 439px;
+    width: 100%;
+    height: 200px;
+    cursor: pointer;
+    background: url("../assets/coupon.png") no-repeat;
+}
+
+.coupon-txt {
+    width: 82%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.orange-text {
+    color: #f26e1e;
+}
+
+.sec3 {
+    background: #fff;
+}
+
+.logos {
+    width: 619px;
+    height: 121px;
+    margin: 0 auto;
+    background: url("../assets/logos.jpg") no-repeat;
+}
+
+.sec4 {
+    background: #292b78;
+    padding-top: 60px;
+}
+
+.sec4 .container {
+    padding: 0;
+    position: relative;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cards:before,
+.cards:after {
+    position: absolute;
+    top: 90px;
+    left: -240px;
+    z-index: 1;
+    display: block;
+    width: 193px;
+    height: 142px;
+    content: '';
+    background: url("../assets/tik.png") no-repeat;
+}
+
+.cards:after {
+    left: auto;
+    right: -240px;
+    top: auto;
+    bottom: 70px;
+    transform: rotate(180deg);
+}
+
+.cards > div {
+    padding-left: 288px;
+    width: 548px;
+    height: 265px;
+    border-radius: 25px;
+    margin-bottom: 65px;
+    background-size: contain;
+}
+
+.card-txt {
+    border-left: 3px solid #f26e1e;
+    height: 100%;
+    padding: 22px 34px;
+}
+
+.card-name,
+.card-testimonial {
+    color: #2b368b;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 13px;
+}
+
+.card-profit {
+    color: #f26e1e;
+    font-size: 20px;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+}
+
+.card-testimonial {
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.card1 {
+    background: #fff url("../assets/card-1.png") no-repeat;
+}
+
+div.card2 {
+    background: #fff url("../assets/card-2.png") no-repeat;
+    background-size: contain;
+    padding-left: 270px;
+}
+
+.card3 {
+    background: #fff url("../assets/card-3.png") no-repeat;
+}
+
+div.card4 {
+    padding-left: 270px;
+    background: #fff url("../assets/card-4.png") no-repeat;
+    background-size: contain;
+}
+
+.sec5 h2 {
+    margin: 60px auto;
+    color: #2b368b;
+}
+
+.steps {
+    width: 100%;
+    height: 199px;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    color: #2b368b;
+    background: url("../assets/steps-1920.jpg") no-repeat center;
+    background-size: contain;
+}
+
+.steps > div {
+    position: absolute;
+    width: 123px;
+    top: 40px;
+    line-height: 1.2;
+    height: 100%;
+    font-size: 16px;
+}
+
+.carousel2 .currency,
+.steps .currency {
+    font-size: 16px;
+}
+
+.step-1 {
+    left: 70px;
+}
+
+.step-2 {
+    left: 325px;
+}
+
+.step-3 {
+    left: 555px;
+}
+
+.step-4 {
+    left: 790px;
+}
+
+.step-5 {
+    left: 1020px;
+}
+
+.btn-open {
+    margin: 40px auto 45px;
+}
+
+.sec6 {
+    background: #292b78;
+    padding: 60px 0;
+}
+
+.sec6 .container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sec6 > h2, .sec6 > h3 {
+    color: #fff;
+    text-align: center;
+}
+
+.sec6 > h3 {
+    font-weight: 300;
+}
+
+.gif {
+    background: #292b78 url(../assets/desktop.gif) no-repeat;
+    background-size: contain;
+    padding-left: 410px;
+    padding-top: 25px;
+    max-width: 1059px;
+    width: 100%;
+    height: 414px;
+    color: #fff;
+    text-align: left;
+    margin-top: 60px;
+}
+
+.gif h3, .gif h2 {
+    font-size: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.gif h3 {
+    margin-bottom: 15px;
+}
+
+.gif-para:first-of-type {
+    margin-bottom: 90px;
+}
+
+.sec7 {
+    text-align: center;
+    color: #fff;
+    padding: 30px 15px;
+    background: url("../assets/bg-bottom.jpg") no-repeat;
+    background-size: cover;
+}
+
+.sec7 h2 {
+    margin-bottom: 25px;
+    font-size: 30px;
+    text-transform: none;
+    font-weight: 300;
+}
+
+.bold {
+    font-weight: 500;
+}
+
+.sec7 .btn {
+    margin: 0 auto;
+
+}
+
+footer {
+    padding: 20px 0;
+}
+
+footer a, footer span {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #0d3993;
+}
+
+.popup-title {
+    display: flex;
+    justify-content: flex-start;
+    color: #000;
+}
+
+footer .close {
+    order: 2;
+    color: #000;
+}
+
+.logo-footer {
+    width: 296px;
+    height: 89px;
+    margin: 0 auto;
+    background: url("../assets/logo-footer.jpg") no-repeat center;
+}
+
+@media (max-width: 1664px) {
+    .cards:before,
+    .cards:after {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    header .container {
+        padding: 0;
+    }
+
+    .container {
+        max-width: 1173px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .type-writer-content {
+        left: 25px;
+    }
+
+    .slide-1-bus {
+        background: url("../assets/slide-1-bus-1200.jpg") no-repeat center top;
+    }
+
+    .slide-2-coffee {
+        background: url("../assets/slide-2-coffee-1200.jpg") no-repeat center top;
+    }
+
+    .slide-3-subway {
+        background: url("../assets/slide-3-subway-1200.jpg") no-repeat center top;
+    }
+
+    .slide-4-beach {
+        background: url("../assets/slide-4-beach-1200.jpg") no-repeat center;
+    }
+
+    .slide-5-vacation {
+        background: url("../assets/slide-5-vacation-1200.jpg") no-repeat center;
+    }
+
+    .sec6 {
+        padding: 35px 0;
+    }
+
+    .cards > div {
+        width: 443px;
+        height: 214px;
+        padding-left: 231px;
+    }
+
+    div.card2,
+    div.card4 {
+        padding-left: 219px;
+    }
+
+    .card-txt {
+        padding: 20px;
+    }
+
+    .card-profit,
+    .card-name,
+    .card-testimonial {
+        line-height: 1;
+    }
+
+    .steps {
+        height: 401px;
+        width: 696px;
+        margin: 0 auto;
+        background: url("../assets/steps-1200.jpg") no-repeat center;
+    }
+
+    .step-1 {
+        left: 80px;
+    }
+
+    .step-2 {
+        left: 330px;
+    }
+
+    .step-3 {
+        left: 570px;
+    }
+
+    div.step-4 {
+        top: 230px;
+        left: 190px;
+    }
+
+    div.step-5 {
+        top: 230px;
+        left: 450px;
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    .show-991 {
+        display: block;
+    }
+
+    .logo {
+        background-size: 90%;
+    }
+
+    header .container,
+    .sec1 .container {
+        max-width: 100%;
+    }
+
+    .just-made-box {
+        width: 193px;
+        height: 141px;
+    }
+
+    .coupons > div {
+        display: flex;
+        height: 159px;
+        align-items: center;
+        background-size: contain;
+    }
+
+    .coupon-txt {
+        width: 90%;
+        height: auto;
+        font-size: 30px;
+    }
+
+    .cards > div {
+        margin: 0 auto 65px;
+    }
+
+    .cards {
+        display: none;
+    }
+
+    .gif {
+        height: auto;
+        background: url("../assets/tablet_768.gif") no-repeat center top;
+        padding-left: 0;
+        padding-top: 450px;
+        text-align: center;
+    }
+
+    .carousel2 {
+        display: block;
+    }
+
+    .cardsCarousel {
+        display: block;
+    }
+
+    .sec4 {
+        padding-top: 30px;
+    }
+
+    .carousel2 {
+        height: 300px;
+    }
+
+    .carousel2 .carousel-item > div {
+        margin: 0 auto;
+        width: 448px;
+        padding-left: 216px;
+        border-radius: 22px;
+        background-size: contain;
+    }
+
+    .carousel2 div.card2 {
+        padding-left: 220px;
+    }
+
+    .carousel2 div.card3 {
+        padding-left: 228px;
+        height: 210px;
+    }
+
+    .carousel2 .carousel-item {
+        z-index: 1;
+        height: 215px;
+    }
+
+    .card1 {
+        background: #fff url("../assets/card-1-768.jpg") no-repeat;
+    }
+
+    .card2 {
+        background: #fff url("../assets/card-2-768.jpg") no-repeat;
+    }
+
+    .card3 {
+        background: #fff url("../assets/card-3-768.jpg") no-repeat;
+    }
+
+    .card4 {
+        background: #fff url("../assets/card-4-768.jpg") no-repeat;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .hide-768 {
+        display: none;
+    }
+
+    .show-768 {
+        display: block;
+    }
+
+    .logo {
+        width: 198px;
+    }
+
+    .slide-1-bus {
+        background: url("../assets/slide-1-bus-768.jpg") no-repeat center;
+    }
+
+    .slide-2-coffee {
+        background: url("../assets/slide-2-coffee-768.jpg") no-repeat center;
+    }
+
+    .slide-3-subway {
+        background: url("../assets/slide-3-subway-768.jpg") no-repeat center;
+    }
+
+    .slide-4-beach {
+        background: url("../assets/slide-4-beach-768.jpg") no-repeat center;
+    }
+
+    .slide-5-vacation {
+        background: url("../assets/slide-5-vacation-768.jpg") no-repeat center;
+    }
+
+    .sec1,
+    .carousel-item {
+        height: 555px;
+    }
+
+    .sec2 h2, .sec4 h2 {
+        margin-bottom: 25px;
+    }
+
+    .coupons {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .coupons > div {
+        height: 200px;
+    }
+
+    .coupon-txt {
+        font-size: 40px;
+    }
+
+    .coupon-left {
+        margin-bottom: 20px;
+    }
+
+    .sec6 {
+        padding-bottom: 60px;
+    }
+
+    .gif h3 {
+        margin-bottom: 8px;
+    }
+
+    .gif-para:first-of-type {
+        margin-bottom: 50px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .show-767 {
+        display: block;
+    }
+
+    .hide-767 {
+        display: none;
+    }
+
+    header {
+        background: #2b368b;
+    }
+
+    .just-made-box {
+        top: 140px;
+    }
+
+    h1,
+    .type-writer-content span {
+        font-size: 40px;
+    }
+
+    .sec1, .carousel-item {
+        text-align: center;
+        height: 655px;
+    }
+
+    header .container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo, .logo-footer {
+        width: 197px;
+        /* height: 60px; */
+        margin: 10px auto 15px;
+        background-size: contain;
+    }
+
+    .secure-icons {
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+
+    .logos {
+        width: 90%;
+        background-size: contain;
+    }
+
+    .orange-border {
+        margin: 18px auto 13px;
+    }
+
+    .open-form-btn {
+        margin: auto;
+    }
+
+    .just-made-box {
+        width: 155px;
+        height: 119px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .name-person-wrap h6 {
+        font-size: 15px;
+    }
+
+    .just-made-box .currency, .personSum {
+        font-size: 50px;
+    }
+
+    .type-writer-content {
+        top: 300px;
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .steps {
+        height: 1132px;
+        width: 236px;
+        margin: 0 auto 30px;
+        background: url("../assets/steps-767.jpg") no-repeat center;
+    }
+
+    .step-1 {
+        left: 90px;
+        top: 0;
+    }
+
+    div.step-2 {
+        left: 105px;
+        top: 275px;
+    }
+
+    div.step-3 {
+        left: 105px;
+        top: 505px;
+    }
+
+    div.step-4 {
+        top: 750px;
+        left: 105px;
+    }
+
+    div.step-5 {
+        top: 965px;
+        left: 105px;
+    }
+
+    .btn,
+    .type-writer-para {
+        font-size: 20px;
+    }
+
+    .card-txt {
+        text-align: left;
+    }
+
+    .secure-icons div {
+        font-size: 12px;
+        background-size: contain;
+    }
+
+    .sec5 h2 {
+        margin: 15px auto 35px;
+    }
+
+    .sec5 .open-form-btn {
+        margin-bottom: 40px;
+    }
+
+    .sec6 h2, .sec6 h3 {
+        padding: 0 15px;
+    }
+
+}
+
+@media (max-width: 650px) {
+    h1,
+    .type-writer-content span {
+        font-size: 30px;
+    }
+
+    .logos {
+        height: 140px;
+        background: url("../assets/logos-m.jpg") no-repeat center;
+    }
+
+    .sec2 {
+        padding: 25px 0;
+    }
+}
+
+@media (max-width: 580px) {
+    .sec4 {
+        padding: 30px 15px 0;
+    }
+
+    .carousel2 .carousel-item > div {
+        width: 100%;
+        border-radius: 27px;
+        height: 100%;
+        padding-left: 135px;
+    }
+
+    div.card1 {
+        background: #fff url("../assets/card-1-m.jpg") no-repeat;
+    }
+
+    div.card2 {
+        background: #fff url("../assets/card-2-m.jpg") no-repeat;
+    }
+
+    div.card3 {
+        background: #fff url("../assets/card-3-m.jpg") no-repeat;
+    }
+
+    div.card4 {
+        background: #fff url("../assets/card-4-m.jpg") no-repeat;
+    }
+
+    .carousel2 .carousel-item {
+        height: 200px;
+    }
+
+    .card-txt {
+        border: 0;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .sec4 h2 {
+        font-size: 25px;
+    }
+
+    .sec5 h2 {
+        font-size: 30px;
+        margin: 25px auto;
+    }
+
+    .sec5 .btn {
+        margin: 30px auto
+    }
+
+    .sec6 > h3 {
+        font-size: 20px;
+    }
+
+    .gif {
+        margin-top: 20px;
+    }
+
+    .gif-para:first-of-type {
+        margin-bottom: 30px;
+    }
+
+    .sec7 {
+        background: url("../assets/bg-bottom-m.jpg") no-repeat center top;
+        background-size: cover;
+        padding: 15px 15px 30px 15px;
+    }
+
+    .sec7 h2,
+    .coupon-txt {
+        font-size: 25px;
+    }
+
+    .sec7 .btn {
+        width: 100%;
+    }
+
+    .form-wrap h3 {
+        font-size: 20px;
+    }
+
+    .form-wrap {
+        width: 85%;
+    }
+
+    .register-btn {
+        width: 100%;
+    }
+
+    .card-profit {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .card-name, .card-testimonial {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .coupons > div {
+        height: 130px;
+        background-position: center;
+    }
+
+    footer {
+        padding: 20px 0 0;
+    }
+
+    .orange-border {
+        width: 170px;
+    }
+
+    .sec1 .carousel-inner div {
+        background-position: center 140px;
+    }
+
+    .sec1, .carousel-item {
+        height: 623px;
+    }
+
+    .carousel-indicators {
+        bottom: 20px;
+    }
+
+    .slide-1-bus {
+        background: url("../assets/slide-1-bus-m.jpg") no-repeat center;
+    }
+
+    .slide-2-coffee {
+        background: url("../assets/slide-2-coffee-m.jpg") no-repeat center;
+    }
+
+    .slide-3-subway {
+        background: url("../assets/slide-3-subway-m.jpg") no-repeat center;
+    }
+
+    .slide-4-beach {
+        background: url("../assets/slide-4-beach-m.jpg") no-repeat center;
+    }
+
+    .slide-5-vacation {
+        background: url("../assets/slide-5-vacation-m.jpg") no-repeat center;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .sec1 .carousel-inner div {
+        background-size: contain;
+    }
+}
